@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Info</title>
+</head>
+<body>
+  <h1>Student Information</h1>
+  <button onclick="getStudentInfo()">Enter Student Details</button>
+  <div id="output"></div>
+
+  <script>
+    function getStudentInfo() {
+      let name = prompt("Enter Student Name:");
+      let roll = prompt("Enter Roll Number:");
+      let dept = prompt("Enter Department:");
+      let project = prompt("Enter Project Title:");
+
+      document.getElementById("output").innerHTML = `
+        <h2>Details</h2>
+        <p>Name: ${name}</p>
+        <p>Roll Number: ${roll}</p>
+        <p>Department: ${dept}</p>
+        <p>Project Title: ${project}</p>
+      `;
+    }
+  </script>
+</body>
+</html>

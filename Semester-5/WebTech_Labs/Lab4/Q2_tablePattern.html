@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table and Pattern</title>
+</head>
+<body>
+  <h1>Multiplication Table & Star Pattern</h1>
+  <button onclick="printTable()">Show Table of 12</button>
+  <button onclick="printPattern()">Show Star Pattern</button>
+  <div id="output"></div>
+
+  <script>
+    // Function to print multiplication table of 12
+    function printTable() {
+      let result = "<h2>Table of 12</h2>";
+      for (let i = 1; i <= 10; i++) {
+        result += `12 x ${i} = ${12 * i}<br>`;
+      }
+      document.getElementById('output').innerHTML = result;
+    }
+
+    // Function to print star pattern
+    function printPattern() {
+      let pattern = "<h2>Star Pattern</h2><pre>";
+      for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= (2 * i - 1); j++) {
+          pattern += "*";
+        }
+        pattern += "\n";
+      }
+      pattern += "</pre>";
+      document.getElementById('output').innerHTML = pattern;
+    }
+  </script>
+</body>
+</html>

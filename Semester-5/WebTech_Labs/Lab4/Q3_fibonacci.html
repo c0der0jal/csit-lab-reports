@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fibonacci Series</title>
+</head>
+<body>
+  <h1>Fibonacci Series Generator</h1>
+  <button onclick="generateFibonacci()">Generate Fibonacci Series</button>
+  <div id="output"></div>
+
+  <script>
+    function generateFibonacci() {
+      let n = parseInt(prompt("How many Fibonacci numbers do you want to generate?"));
+
+      if (isNaN(n) || n <= 0) {
+        document.getElementById("output").innerHTML = "Please enter a valid positive number!";
+        return;
+      }
+
+      let a = 0, b = 1, series = "";
+      for (let i = 0; i < n; i++) {
+        series += a + " ";
+        let next = a + b;
+        a = b;
+        b = next;
+      }
+
+      document.getElementById("output").innerHTML = "First " + n + " Fibonacci Numbers:<br>" + series;
+    }
+  </script>
+</body>
+</html>

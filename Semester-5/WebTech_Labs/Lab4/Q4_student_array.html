@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Array</title>
+</head>
+<body>
+  <h1>Multiple Students Database</h1>
+  <button onclick="startAddingStudents()">Add Students</button>
+  <div id="output"></div>
+
+  <script>
+    let studentsArray = [];
+
+    function startAddingStudents() {
+      studentsArray = []; // Reset array
+      document.getElementById("output").innerHTML = ""; // Clear output
+      addStudent();
+    }
+
+    function addStudent() {
+      let name = prompt("Enter Student Name:");
+      let roll = prompt("Enter Roll Number:");
+      let dept = prompt("Enter Department:");
+      let project = prompt("Enter Project Title:");
+
+      let student = {
+        name: name,
+        rollNumber: roll,
+        department: dept,
+        projectTitle: project
+      };
+
+      studentsArray.push(student);
+
+      let addMore = confirm("Do you want to add another student?");
+      if (addMore) {
+        addStudent(); 
+      } else {
+        displayAllStudents();
+      }
+    }
+
+    function displayAllStudents() {
+      let output = "Total Students: " + studentsArray.length + "<br><br>";
+      for (let i = 0; i < studentsArray.length; i++) {
+        output += "Student " + (i + 1) + "<br>";
+        output += "Name: " + studentsArray[i].name + "<br>";
+        output += "Roll Number: " + studentsArray[i].rollNumber + "<br>";
+        output += "Department: " + studentsArray[i].department + "<br>";
+        output += "Project Title: " + studentsArray[i].projectTitle + "<br><br>";
+      }
+      document.getElementById("output").innerHTML = output;
+    }
+  </script>
+</body>
+</html>
