@@ -35,7 +35,7 @@ of Higher Education (TU-affiliated)**, organized by semester.
 | 3 | C++, VHDL | Computer Architecture, Computer Graphics, DSA, Numerical Methods, Statistics |
 | 4 | Python, Prolog | Artificial Intelligence, Computer Networks, DBMS, OS, TOC |
 | 5 | Python, PHP, HTML/CSS | Cryptography, Design & Analysis of Algorithms, System Analysis & Modeling, Web Technologies |
-| 6 | C++, Flex/Bison | Compiler Design |
+| 6 | C++, Flex/Bison | Software Engineering, Compiler Design, Distributed System, Web Technology, E-commerce |
 
 ---
 
@@ -74,9 +74,13 @@ of Higher Education (TU-affiliated)**, organized by semester.
 | Web Technologies | HTML, CSS, JavaScript, PHP, CRUD operations |
 
 ### Semester 6
-| Subject | Code(s) Present |
-|---------|-----------------|
-| Compiler Design | Lexical analysis, parsing (LL/SLR/LALR/LR), DFA construction, symbol validation |
+| Subject | Code | Code(s) Present |
+|---------|------|-----------------|
+| Software Engineering | CSC364 | *(pending lab files)* |
+| Compiler Design | CSC365 | Lexical analysis, parsing (LL/SLR/LALR/LR), DFA construction, symbol validation |
+| Distributed System | CSC366 | *(pending lab files)* |
+| Web Technology | CSC367 | *(pending lab files)* |
+| E-commerce | CSC370 | *(pending lab files)*
 
 ---
 
@@ -201,41 +205,41 @@ Semester-5/
 
 **Languages:** C++, Flex/Bison
 
-Organized under `Semester-6/`:
+Organized under `Semester-6/` with subject-specific subdirectories:
 
-All files are in a flat structure representing the Compiler Design lab:
-
-- `DFA_*.cpp` — Deterministic Finite Automata simulators
-- `LexicalAnalyzer.cpp` / `Lexer.l` — Lexer/scanner using Flex
-- `F1_parser.l` / `F2_parser.y` — Parser using Flex/Bison (LALR)
-- `LL(1)` / `SLR` / `LALR(1)` / `LR(1)` parsing table construction
-- `FirstFollowComputation.cpp` — FIRST & FOLLOW set computation
-- `ShiftReducerParser.cpp` — Shift-reduce parser
-- `Prefix_Substring_Siffix.cpp` — Prefix, substring, suffix algorithms
-- `ValidateC_Identifiers.cpp` — C identifier validation
-- `CommentChecker.cpp` — Comment detection in source code
+- **`Compiler-Design/`** — CSC365 (Compiler Design lab)
+  - Lexical analysis, parsing (LL/SLR/LALR/LR), DFA construction, symbol validation
+- **`Software-Engineering/`** — CSC364 *(pending lab files)*
+- **`Distributed-System/`** — CSC366 *(pending lab files)*
+- **`Web-Technology/`** — CSC367 *(pending lab files)*
+- **`E-commerce/`** — CSC370 *(pending lab files)*
 
 ```
 Semester-6/
-├── LexicalAnalyzer.cpp           # Scanner implementation
-├── Lexer.l                       # Flex specification
-├── F1_parser.l                   # Flex lexer for parser
-├── F2_parser.y                   # Bison parser
-├── FirstFollowComputation.cpp    # Compiler theory
-├── LL(1)ParsingTable.cpp         # LL(1) predictive parsing
-├── SLRParsingTableConstruction.cpp  # SLR(1) parsing
-├── LALR(1)ParsingTableConstruction.cpp  # LALR(1) parsing
-├── LR(1)ParsingTableConstruction.cpp    # LR(1) parsing
-├── topDownLL(1)StackPArser.cpp   # Top-down parser w/ stack
-├── ShiftReducerParser.cpp        # Bottom-up shift-reduce parser
-├── DFA_Start01.cpp               # DFA: strings starting with 01
-├── DFA_AcceptSubstring001.cpp    # DFA: accepting substring 001
-├── DFA_End01.cpp                 # DFA: strings ending with 01
-├── CFG+LeftRecursion_LeftFactorElem.cpp  # Grammar transformation
-├── CommentChecker.cpp            # Comment detection
-├── ValidateC_Identifiers.cpp     # C identifier validation
-├── Prefix_Substring_Siffix.cpp   # String algorithms
-└── .gitignore
+├── Compiler-Design/          # Lexical analysis & parsing
+│   ├── LexicalAnalyzer.cpp           # Scanner implementation
+│   ├── Lexer.l                       # Flex specification
+│   ├── F1_parser.l                   # Flex lexer for parser
+│   ├── F2_parser.y                   # Bison parser
+│   ├── FirstFollowComputation.cpp    # Compiler theory
+│   ├── LL(1)ParsingTable.cpp         # LL(1) predictive parsing
+│   ├── SLRParsingTableConstruction.cpp  # SLR(1) parsing
+│   ├── LALR(1)ParsingTableConstruction.cpp  # LALR(1) parsing
+│   ├── LR(1)ParsingTableConstruction.cpp    # LR(1) parsing
+│   ├── topDownLL(1)StackPArser.cpp   # Top-down parser w/ stack
+│   ├── ShiftReducerParser.cpp        # Bottom-up shift-reduce parser
+│   ├── DFA_Start01.cpp               # DFA: strings starting with 01
+│   ├── DFA_AcceptSubstring001.cpp    # DFA: accepting substring 001
+│   ├── DFA_End01.cpp                 # DFA: strings ending with 01
+│   ├── CFG+LeftRecursion_LeftFactorElem.cpp  # Grammar transformation
+│   ├── CommentChecker.cpp            # Comment detection
+│   ├── ValidateC_Identifiers.cpp     # C identifier validation
+│   ├── Prefix_Substring_Siffix.cpp   # String algorithms
+│   └── README.md
+├── Software-Engineering/     # *(pending)*
+├── Distributed-System/       # *(pending)*
+├── Web-Technology/           # *(pending)*
+└── E-commerce/               # *(pending)*
 ```
 
 ---
