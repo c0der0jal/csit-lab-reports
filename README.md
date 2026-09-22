@@ -203,10 +203,13 @@ Semester-5/
 
 ### Semester 6
 
-**Languages:** C++, Flex/Bison
+**Languages:** C++, Flex/Bison, C#/.NET
 
 Organized under `Semester-6/` with subject-specific subdirectories:
 
+- **`.NET/`** — C# and ASP.NET Core lab assignments
+  - Unit 1 Chapter 1.2–1.6: C# fundamentals (data types, OOP, delegates, collections, File I/O)
+  - Lab 1–10: ASP.NET Core MVC apps (ADO.NET, Entity Framework, Identity, state management, security)
 - **`Compiler-Design/`** — CSC365 (Compiler Design lab)
   - Lexical analysis, parsing (LL/SLR/LALR/LR), DFA construction, symbol validation
 - **`Software-Engineering/`** — CSC364 *(pending lab files)*
@@ -216,6 +219,14 @@ Organized under `Semester-6/` with subject-specific subdirectories:
 
 ```
 Semester-6/
+├── .NET/                    # C# & ASP.NET Core labs
+│   ├── Unit1CH1.2/          # C# basics: data types, operators, control flow
+│   ├── Unit1CH1.3/          # OOP: classes, objects, inheritance, polymorphism
+│   ├── Unit1CH1.6/          # Delegates, events, collections, File I/O
+│   ├── Lab1–Lab10/          # ASP.NET Core MVC apps (Controllers, EF, Identity)
+│   ├── StdMVCDetail/        # Student management CRUD (EF + Identity)
+│   ├── StdFormMVC/          # Student form with validation
+│   └── AzureProject/        # Azure App Service deployment
 ├── Compiler-Design/          # Lexical analysis & parsing
 │   ├── LexicalAnalyzer.cpp           # Scanner implementation
 │   ├── Lexer.l                       # Flex specification
