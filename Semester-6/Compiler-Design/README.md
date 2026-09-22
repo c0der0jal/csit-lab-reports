@@ -77,5 +77,5 @@ If your Bison installation generates a different output name, compile the genera
 
 Generated files such as `.exe`, `lex.yy.c`, and Bison output files are ignored by `.gitignore`. The folder is intended to keep only the lab source files (`.cpp`, `.l`, `.y`) along with this README and `.gitignore`.
 
-Student: Saugat Bikram Thapa  
-Roll No./Section: 80117731/A
+Student: Rojal Maharjan  
+Roll No./Section: 80117747/A
