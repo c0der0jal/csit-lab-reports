@@ -15,6 +15,6 @@ int main() {
     }
     cout << (state == 3 ? "Accepted" : "Rejected") << endl;
     
-    cout << "\nLab No_Q.: 1(c) | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 1(c) | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

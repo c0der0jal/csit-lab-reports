@@ -12,6 +12,6 @@ int main() {
     cin >> A >> a >> b1 >> b2;
     cout << A << " -> " << a << A << "'\n" << A << "' -> " << b1 << " | " << b2 << "\n";
 
-    cout << "\nLab No_Q.: 7 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 7 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

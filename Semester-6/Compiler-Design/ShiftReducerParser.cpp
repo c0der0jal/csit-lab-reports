@@ -21,6 +21,6 @@ int main() {
     }
     cout << (stk == "E$" ? "ACCEPTED\n" : "REJECTED\n");
 
-    cout << "\nLab No_Q.: 11 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 11 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

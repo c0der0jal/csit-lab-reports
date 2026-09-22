@@ -16,6 +16,6 @@ expr: expr '+' expr { $$ = $1 + $3; }
 %%
 int main() {
     printf("Enter expr/decl: "); yyparse();
-    printf("\nLab No_Q.: 15 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n");
+    printf("\nLab No_Q.: 15 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n");
     return 0;
 }

@@ -15,6 +15,6 @@ int main() {
     else
         cout << "not a comment\n";
 
-    cout << "\nLab No_Q.: 3 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 3 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

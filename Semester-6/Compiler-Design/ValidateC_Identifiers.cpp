@@ -25,13 +25,13 @@ int main() {
         for (char c : s) {
             if (!(isalnum((unsigned char)c) || c == '_')) {
                 cout << "Invalid Identifier: Contains invalid character '" << c << "'\n";
-                cout << "\nLab No_Q.: 4 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+                cout << "\nLab No_Q.: 4 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
                 return 0;
             }
         }
         cout << "Valid Identifier\n";
     }
 
-    cout << "\nLab No_Q.: 4 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 4 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

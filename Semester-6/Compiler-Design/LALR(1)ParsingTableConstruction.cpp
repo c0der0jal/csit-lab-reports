@@ -13,6 +13,6 @@ int main() {
     cout << setw(6) << "1"      << setw(6) << ""    << setw(6) << ""    << setw(6) << "acc" << setw(6) << ""  << setw(6) << "\n";
     cout << setw(6) << merged   << setw(6) << "s36" << setw(6) << "s47" << setw(6) << ""    << setw(6) << ""  << setw(6) << "89\n";
 
-    cout << "\nLab No_Q.: 14 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 14 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

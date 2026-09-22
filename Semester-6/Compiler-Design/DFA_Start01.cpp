@@ -15,6 +15,6 @@ int main() {
     cout << (state == 2 ? "Accepted" : "Rejected") << endl;
     
     // Print required lab student details[cite: 1]
-    cout << "\nLab No_Q.: 1(a) | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 1(a) | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

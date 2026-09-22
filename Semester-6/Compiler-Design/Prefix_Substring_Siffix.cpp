@@ -26,6 +26,6 @@ int main() {
     for (auto str : sub) cout << str << " ";
     cout << endl;
 
-    cout << "\nLab No_Q.: 2 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n";
+    cout << "\nLab No_Q.: 2 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n";
     return 0;
 }

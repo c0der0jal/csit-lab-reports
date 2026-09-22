@@ -20,7 +20,7 @@ int line_no = 1;
 
 int main() {
     yylex();
-    printf("\nLab No_Q.: 6 | Name: Saugat Bikram Thapa | Roll No./Sec: 80117731/A\n");
+    printf("\nLab No_Q.: 6 | Name: Rojal Maharjan | Roll No./Sec: 80117747/A\n");
     return 0;
 }
 
